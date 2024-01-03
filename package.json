@@ -1,0 +1,18 @@
+{
+  "name": "rise11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "todo-app": "cd todo-app && npm start",
+    "todo-app-backend": "cd todo-app-backend && npm start",
+    "start": "concurrently \"npm run todo-app\" \"npm run todo-app-backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
